@@ -1,0 +1,41 @@
+body{
+    margin:0px;
+    padding:0px;
+}
+
+.form-username{
+    display: none;/*thid need to be removed*/
+
+}
+.chatroom-container{
+    display: none;
+    height:100vh;
+    width:100%;
+
+
+}
+.chatroom-header{
+    background-color: black;
+    color: white;
+    padding: 0.5rem;
+    font-size:2rem; 
+
+}
+
+
+.messages{
+    display: flex;
+    flex-direction: column;
+    height:85vh;
+
+}
+.message{
+    background-color: gray;
+    width:fit-content;
+    padding: 0.5rem;
+    margin: 0.5rem;
+
+}
+.sent{
+    align-self: flex-end;
+}
