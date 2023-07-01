@@ -3,10 +3,10 @@ body{
     padding:0px;
 }
 
-.form-username{
+/* .form-username{
     display: none;/*thid need to be removed*/
 
-}
+
 .chatroom-container{
     display: none;
     height:100vh;
@@ -38,4 +38,16 @@ body{
 }
 .sent{
     align-self: flex-end;
+}
+#message-input{
+    margin-left: 15px;
+}
+#username-input{
+    margin-left: 15px;
+}
+h1{
+    margin-left: 20px;
+}
+p{
+    margin-left: 20px;
 }
